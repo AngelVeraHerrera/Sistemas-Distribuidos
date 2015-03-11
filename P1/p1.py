@@ -3,9 +3,9 @@
 import os
 
 def drinkRon(n):
-	for i in range(0, n):
-		print n-i, "bottles of beer on the wall,", n-i, "bottles of beer"
-		print"Take one down, pass it around,", n-i-1, "bottles of beer on the wall.\n"
+	for i in reversed(range(1, n)):
+		print i, "bottles of beer on the wall,", i, "bottles of beer"
+		print"Take one down, pass it around,", i-1, "bottles of beer on the wall.\n"
 
 
-drinkRon(99)
+drinkRon(100)
