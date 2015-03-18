@@ -1,4 +1,5 @@
 # Sistemas Distribuidos
-Prácticas de la asignatura Sistemas Distribuidos.
 
-Realizadas en Python
+Seminarios de la asignatura Sistemas Distribuidos.
+
+Realizadas por **José Crespo Guerrero** y **José Carlos Montañez Aragón**.
