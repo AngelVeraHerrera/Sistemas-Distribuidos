@@ -39,7 +39,7 @@ def crearPalabras(lista):
 				if lista[j][0] == temp[-1]:
 					lista_auxiliar.append(lista[j])
 					temp = lista[j]
-					j = 0
+					j = -1
 			
 		#Guardamos la nueva lista si es de mayor longitud
 		if len(lista_auxiliar) > len(lista_final):
