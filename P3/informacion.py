@@ -5,7 +5,7 @@ def getTweetsSearch(busqueda):
 	#Limitamos la busqueda a Espana
 	localizacion = "40.2085,-3.713,497mi"
 
-	tweets = twitter_api.search.tweets(q=busqueda, geocode=localizacion)
+	tweets = twitter_api.search.tweets(q=busqueda, count=1000, geocode=localizacion)
 
 	aux = json.dumps(tweets, indent = 1)
 	it = json.loads(aux)
